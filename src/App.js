@@ -22,7 +22,7 @@ export default function App() {
         </Route>
         <Route
           path="/page1"
-          render={() => (
+          render={({ match: { url } }) => (
             <Switch>
               <Route exact path="/page1">
                 <Page1 />
