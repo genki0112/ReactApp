@@ -13,6 +13,7 @@ export default function App() {
         <Link to="/page2">Page2</Link>
       </div>
       <Router />
+      <h1>コミット１回目</h1>
     </BrowserRouter>
   );
 }
