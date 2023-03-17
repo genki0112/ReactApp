@@ -9,8 +9,7 @@ export const Page1 = () => {
       <h1>ページ１です。</h1>
       <Link to={{ pathname: "/page1/detailA", state: arr }}>DetailA</Link>
       <br />
-      <Link to="/page1/detailBaaaaaa
-      ">DetailB</Link>
+      <Link to="/page1/detailB">DetailB</Link>
       <br />
       <button onClick={onClickDetailA}>DetailA</button>
     </div>
