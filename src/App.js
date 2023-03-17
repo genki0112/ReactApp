@@ -8,8 +8,7 @@ export default function App() {
       <div className="App">
         <Link to="/">Home</Link>
         <br />
-        <Link to="/page1">Page1</Link>
-        <br />
+        aaaaaaaa
         <Link to="/page2">Page2</Link>
       </div>
       <Router />
